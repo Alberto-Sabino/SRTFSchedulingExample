@@ -1,24 +1,14 @@
-# strfscalingexample
+# SRTF Scheduling Example
 
-## Project setup
-```
-npm install
-```
+Este projeto foi criado com o intuito de representar o funcionamento de um algoritmo de escalonamento de processos.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+O SRTF (Shortest Remaining Time First) define que, o próximo processo a ser processado é o de menor tempo restante, sendo a versão preemptiva do SJF (Shortest Job First).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Para subir o projeto
 
-### Lints and fixes files
-```
-npm run lint
-```
+Precisaremos do NODE e do NPM instalados na máquina, por ser um projeto construído em Vue.js.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Para instalar e rodar o projeto, simplesmente acesse o terminal na raiz do projeto e digite:
+
+- npm install
+- npm run serve
